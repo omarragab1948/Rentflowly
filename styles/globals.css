@@ -1,0 +1,79 @@
+/* styles/fonts.css */
+
+@font-face {
+  font-family: 'Dubai';
+  src: url('../public/fonts/DubaiW23-Regular.woff') format('woff');
+  src: url('../public/fonts/DubaiW23-Light.woff') format('woff');
+  src: url('../public/fonts/DubaiW23-Bold.woff') format('woff');
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+#__next {
+  height: 100%;
+}
+
+code {
+  padding: 0.1rem 0.4rem;
+  font-size: 90%;
+  color: #d400ff;
+  border-radius: 0.1335rem;
+}
+code:not([class*='language-']):before,
+code:not([class*='language-']):after {
+  content: '`';
+}
+code[class*='language-'] {
+  padding: 0;
+}
+.css-1havfnf-MuiPaper-root-MuiAccordion-root {
+  box-shadow: none !important;
+  margin: 0 !important;
+  border-radius: 0 !important;
+}
+header > div {
+  overflow: hidden !important;
+}
+.mainBg {
+  background-color: #7367f0 !important;
+}
+.hoverBg {
+  background-color: rgba(47, 43, 61, 0.04) !important;
+}
+.hoverBg:hover {
+  background-color: rgba(47, 43, 61, 0.07) !important;
+}
+.css-8km336-MuiPaper-root-MuiAccordion-root.Mui-expanded {
+  margin: 0 !important;
+}
+label {
+  margin: 0 !important;
+}
+.ql-editor {
+  display: flex;
+}
+@media (min-width: 604px) {
+  .justify-start {
+    justify-content: start !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .to-hidden {
+    display: none !important;
+  }
+  .mt-10 {
+    margin-top: 10px !important;
+  }
+}
+@media (min-width: 991px) {
+  .from-hidden {
+    display: none !important;
+  }
+}

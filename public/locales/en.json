@@ -1,0 +1,17 @@
+{
+  "Home": "Home",
+  "type": "type",
+  "town": "town",
+  "country": "country",
+  "overview": "Overview",
+  "bedrooms": "Bedrooms",
+  "bathrooms": "Bathrooms",
+  "area": "Area",
+  "status": "Status",
+  "residentialArea": "Residential Area",
+  "presentedBy": "Presented by",
+  "apartment": "Apartment",
+  "available": "Available",
+  "specifications": "Specifications",
+  "summary": "Summary"
+}
